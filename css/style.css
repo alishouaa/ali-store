@@ -1,0 +1,408 @@
+            @font-face {
+                src: url(../font/Recursive-VariableFont_CASL\,CRSV\,MONO\,slnt\,wght.ttf);
+                font-family: ar-font;
+            }
+            
+            body {
+                font-family: ar-font;
+                width: 100%;
+                padding: 0;
+                margin: 0;
+            }
+            
+            header .navbar {
+                position: fixed;
+                width: 100%;
+                z-index: 2;
+            }
+            
+            header .navbar .navbar-brand,
+            header .navbar .navbar-brand:hover,
+            header .navbar .navbar-brand:focus {
+                color: #ecb055;
+                font-weight: bold;
+                font-size: 23px;
+            }
+            
+            header .navbar ul li {
+                padding: 0 30px;
+                color: white;
+            }
+            
+            .navbar-dark .navbar-nav .nav-link {
+                color: white;
+            }
+            
+            header .navbar form button {
+                background-color: #ecb055;
+                color: #000000;
+            }
+            
+            header .navbar .custom-btn {
+                background-color: #ecb055;
+            }
+            
+            section .sidebar {
+                background-color: rgb(248, 245, 245);
+                padding-top: 58px;
+            }
+            
+            section .sidebar .ins-ul a,
+            section .sidebar .ins-ul2 a {
+                text-decoration: none;
+            }
+            
+            section .sidebar .ins-ul li {
+                list-style: none;
+                padding: 25px 20px;
+                color: black;
+            }
+            
+            section .sidebar .ins-ul2 {
+                background-color: white;
+            }
+            
+            section .sidebar .ins-ul2 li {
+                padding: 10px;
+                color: grey;
+                list-style: none;
+            }
+            
+            section .sidebar .ins-ul2 li:hover {
+                background-color: rgb(221, 221, 221);
+                color: black;
+            }
+            
+            section .sidebar .ins-ul li:hover,
+            section .sidebar .ins-ul li.active,
+            ul.ull li:hover,
+            ul.ull li.active {
+                background-color: rgb(37, 34, 34);
+                color: white;
+            }
+            
+            ul.ull {
+                display: none;
+            }
+            
+            section .cart {
+                padding: 70px 20px 30px 20px;
+                background-color: #e0e4ec;
+                border-left: 1px solid #8c8c8c;
+            }
+            
+            section .cart a {
+                text-decoration: none;
+                color: black;
+            }
+            
+            section .card-app h2,
+            section .card-game h2,
+            section .card-book h2 {
+                font-weight: bold;
+            }
+            
+            section .card {
+                margin: 7px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+            
+            section .card-game img {
+                padding: 50px;
+            }
+            
+            section .card-app img,
+            section .card-book img {
+                padding: 40px;
+            }
+            
+            section .card-app .card p,
+            section .card-game .card p,
+            section .card-book .card p {
+                color: grey;
+                padding-top: 20px;
+            }
+            
+            section .rating .active,
+            section .rating .active,
+            section .rating .active {
+                color: orange;
+            }
+            
+            section .footer {
+                padding-top: 50px;
+                text-align: center;
+            }
+            
+            section .footer li {
+                list-style: none;
+                display: inline;
+                padding: 0 10px;
+                font-size: 14px;
+                color: grey;
+            }
+            /*-----------------------------------------------*/
+            
+            section .setting {
+                padding: 90px 20px 20px 40px;
+                border-left: 1px solid #8c8c8c;
+            }
+            
+            section .setting .perfe h2,
+            section .setting .auth h2,
+            section .setting .auth p {
+                color: black;
+                line-height: 2;
+            }
+            
+            section .setting .perfe input,
+            section .setting .auth input {
+                margin-right: 10px;
+            }
+            
+            section .setting .perfe ul li,
+            section .setting .auth ul li {
+                list-style: none;
+                padding: 10px;
+                color: black;
+            }
+            
+            section .setting .auth button,
+            section .sign button {
+                background-color: #ecb055;
+            }
+            /*--------------------------------------------------*/
+            
+            section .account {
+                margin: auto;
+                margin-top: 80px;
+                padding: 30px;
+                border: 1px solid gray;
+                border-radius: 10px;
+                width: 500px;
+            }
+            
+            section .account h4 {
+                padding: 10px 0;
+                color: #ecb055;
+                text-align: center;
+                margin-bottom: 0;
+            }
+            
+            section .account h1,
+            section .account h2,
+            section .account p {
+                padding: 25px 0;
+                color: black;
+                text-align: center;
+                margin-bottom: 0;
+            }
+            
+            section .account a {
+                padding: 25px 0;
+                text-decoration: none;
+                color: rgb(54, 73, 247);
+            }
+            
+            section .account button {
+                background-color: #ecb055;
+                float: right;
+            }
+            /*------------------------------------------*/
+            
+            section .down {
+                background-color: #e0e4ec;
+                padding: 90px 20px 20px 20px;
+                border-left: 1px solid #8c8c8c;
+            }
+            
+            section .info,
+            section .images {
+                padding: 40px;
+            }
+            
+            section .info ul li {
+                padding: 15px 0;
+                list-style: none;
+            }
+            
+            section .info ul a {
+                text-decoration: none;
+                color: #888;
+            }
+            
+            section .info ul a:hover {
+                text-decoration: underline;
+            }
+            
+            section .info button {
+                background-color: #ecb055;
+                float: right;
+            }
+            
+            section .info button:hover {
+                background-color: #eca233;
+            }
+            
+            section .images img {
+                width: 100%;
+            }
+            /*------------------------------*/
+            
+            section .sign {
+                padding: 90px 20px 20px 20px;
+                border-left: 1px solid gray;
+            }
+            
+            section .sign ul li {
+                margin: 10px 0;
+                list-style: none;
+            }
+            
+            #loginModal .modal-content .modal-body h4 {
+                color: green;
+            }
+            
+            #loginModal .modal-content .modal-footer .customi-i {
+                font-size: 70px;
+                margin: 50px 0 50px 210px;
+                border: 2px solid green;
+                border-radius: 50%;
+                padding: 10px;
+            }
+            /*--------------------------*/
+            /*     
+    @media(max-width:1189px) {
+        section .card-app .card,
+        section .card-game .card,
+        section .card-book .game {
+            padding: 20px 5px;
+        }
+    }
+    
+    @media(max-width:834px) {
+        section .card-app .card,
+        section .card-game .card,
+        section .card-book .game {
+            padding: 20px 0px;
+        }
+        section .down .images img {
+            padding-top: 100px;
+        }
+    }
+    
+    @media(max-width:575px) {
+        section .card-app .card,
+        section .card-game .card,
+        section .card-book .game {
+            padding: 10px 20px;
+        }
+    }
+    
+    @media(max-width:767px) {
+        section .setting {
+            padding: 20px;
+            border-left: none
+        }
+        .sidebar {
+            text-align: center;
+        }
+        .setting .perfe hr {
+            display: none;
+        }
+        .setting p {
+            padding-left: 30px;
+        }
+        section .down {
+            padding: 25px;
+        }
+    }
+    /* @media(min-width:576px) {
+        .rating span {
+            display: block;
+        }
+    } */
+            /* @media(max-width:634px) {
+        section .down .images img {
+            display: block;
+        }
+    } */
+            
+            @media(max-width:377px) {
+                section .sidebar {
+                    display: none;
+                }
+                section .cart {
+                    padding: 150px 20px 20px 20px;
+                }
+                section .setting {
+                    padding: 70px 20px 20px 10px;
+                    border-left: none;
+                    overflow: hidden;
+                }
+                section .sign {
+                    padding: 90px 15px 15px 15px;
+                    border-left: none
+                }
+                section .sign ul {
+                    padding: 0;
+                }
+                section .info,
+                section .images {
+                    padding: 20px;
+                }
+                section .info ul {
+                    padding: 10px;
+                }
+                section .card-game img {
+                    padding: 30px;
+                }
+                section .card {
+                    margin: 7px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+                ul.ull {
+                    display: block;
+                    margin-top: 60px;
+                    background-color: lightgray;
+                    text-align: center;
+                    position: fixed;
+                    width: 100%;
+                    padding: 20px 0;
+                    z-index: 1;
+                }
+                ul.ull li {
+                    list-style: none;
+                    display: inline;
+                    padding: 15px 30px;
+                    color: black;
+                    border-radius: 10px;
+                }
+                ul.ull a {
+                    text-decoration: none;
+                }
+                .rating span {
+                    display: block;
+                }
+                section .card .card-body {
+                    padding: 5px;
+                }
+                section .card-app .card-img-top {
+                    padding: 10px;
+                }
+                section .card-game .card-img-top,
+                section .card-book .card-img-top {
+                    padding: 20px;
+                }
+                section .card .card-footer {
+                    padding: 9px;
+                }
+                section .card p {
+                    display: none;
+                }
+                .card img.img-fb {
+                    padding: 0;
+                }
+            }
